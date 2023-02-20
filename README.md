@@ -13,6 +13,13 @@ The library is based on adding [range headers](https://developer.mozilla.org/en-
 
 ## Examples
 
+The parallel downloader is accessible via python or a console script:
+
+```
+parallel-downloader https://i.imgur.com/z4d4kWk.jpg cat.jpg --parts 10
+```
+is the same as
+
 ```
 import parallel_downloader as d
 
