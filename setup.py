@@ -19,7 +19,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "parallel-downloader = parallel_downloader.main:main",
+            "parallel-downloader = parallel_downloader.__main__:main",
         ]
     }
 )
