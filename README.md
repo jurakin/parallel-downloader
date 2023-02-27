@@ -15,12 +15,12 @@ The library is based on adding [range headers](https://developer.mozilla.org/en-
 
 The parallel downloader is accessible via python or a console script:
 
-```
+```python
 parallel-downloader https://i.imgur.com/z4d4kWk.jpg cat.jpg --parts 10
 ```
 is the same as
 
-```
+```python
 import parallel_downloader as d
 
 url = "https://i.imgur.com/z4d4kWk.jpg"
@@ -32,7 +32,7 @@ d.ParallelDownloader(url, file, 10).wait()
 
 Using `.start()` and `.wait()`:
 
-```
+```python
 import parallel_downloader as d
 
 url = "https://i.imgur.com/z4d4kWk.jpg"
@@ -54,7 +54,7 @@ print("downloaded")
 
 Using `.terminate()`:
 
-```
+```python
 import parallel_downloader as d
 
 import time
